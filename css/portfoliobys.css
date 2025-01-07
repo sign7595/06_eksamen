@@ -10,11 +10,20 @@
 :root {
   --body-color: #fcfaf3;
 }
+@font-face {
+  font-family: moret-regular;
+  src: url(../font/Moret-Regular.otf);
+}
 h1 {
   color: var(--h1-color);
+  font-family: moret-regular;
 }
 h2 {
   color: var(--h2-color);
+  font-family: moret-regular;
+}
+p {
+  font-family: playfair display;
 }
 /* main {
   background-color: var(--main-color);
@@ -65,7 +74,7 @@ button {
 }
 button a {
   color: var(--h1-color);
-  font-family: moret;
+  font-family: moret-regular;
   font-size: 170%;
 }
 ul {
@@ -140,6 +149,7 @@ header {
   margin-left: 35%;
   padding: 2%;
   border-radius: 30px;
+  margin-bottom: 5%;
 }
 .projekter div {
   margin-bottom: 100px;
@@ -197,10 +207,9 @@ header {
 form {
   text-align: center;
   size: 2vw;
- 
 }
-label{
-  font-family: moret;
+label {
+  font-family: moret-regular;
   font-size: 1.6vw;
 }
 a {
@@ -223,7 +232,7 @@ footer {
 .logo {
   margin-top: 0;
   font-size: 12vw;
-  font-family: moret;
+  font-family: moret-regular;
   font-weight: bold;
   color: var(--h1-color);
 }
@@ -239,7 +248,7 @@ form {
 .forside h1 {
   text-align: center;
   font-size: 20vw;
-  font-family: moret;
+  font-family: moret-regular;
   z-index: 3;
   margin-left: 2%;
 }
@@ -408,7 +417,7 @@ form {
   }
   h1 {
     font-size: 300%;
-    font-family: moret;
+    font-family: moret-regular;
   }
   header h1 {
     font-size: 500%;
@@ -418,10 +427,10 @@ form {
     text-decoration: underline;
   }
   h2 {
-    font-family: moret;
+    font-family: moret-regular;
   }
   h3 {
-    font-family: moret;
+    font-family: moret-regular;
   }
   .h3_footer {
     margin-left: 94.5%;
@@ -466,8 +475,16 @@ form {
   .logo {
     font-size: 7vw;
   }
-  p{
+  p {
     font-size: 1.3vw;
     line-height: 1.5;
+  }
+  .knap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .projekter button {
+    margin-left: 0;
   }
 }

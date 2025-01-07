@@ -206,7 +206,6 @@ header {
 }
 form {
   text-align: center;
-  size: 2vw;
 }
 label {
   font-family: moret-regular;
@@ -215,18 +214,19 @@ label {
 a {
   text-decoration: none;
   color: var(--h1-color);
+  font-family: moret-regular;
 }
 footer {
   background-color: #d88193;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin: none;
+  margin: 0;
   padding: 1%;
 }
 .h3_footer {
   z-index: 0;
   color: var(--h1-color);
-  margin-left: 80%;
+  /* margin-left: 75%; */
   margin-bottom: 7%;
 }
 .logo {

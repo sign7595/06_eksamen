@@ -14,6 +14,10 @@
   font-family: moret-regular;
   src: url(../font/Moret-Regular.otf);
 }
+
+.button.pop {
+  transform: scale(1.07);
+}
 h1 {
   color: var(--h1-color);
   font-family: moret-regular;
@@ -64,15 +68,17 @@ footer li {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
 }
-button {
+.button {
   background-color: var(--main-color);
-  border-radius: 20px;
+  border-radius: 30px;
   text-decoration: none;
   border-style: none;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
-button a {
+.button a {
   color: var(--h1-color);
   font-family: moret-regular;
   font-size: 170%;
@@ -144,7 +150,7 @@ header {
   max-width: 95%;
   margin: auto;
 }
-.projekter button {
+.projekter .button {
   text-align: center;
   margin-left: 35%;
   padding: 2%;
@@ -484,7 +490,7 @@ form {
     flex-direction: row;
     justify-content: space-around;
   }
-  .projekter button {
+  .projekter .button {
     margin-left: 0;
   }
 }

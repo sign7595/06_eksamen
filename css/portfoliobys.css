@@ -78,6 +78,7 @@ footer li {
   padding-top: 6%;
   padding-bottom: 6%;
 }
+
 .button a {
   color: var(--h1-color);
   font-family: moret-regular;
@@ -98,6 +99,11 @@ li {
 .forside img {
   max-width: 100%;
   border-radius: 20px;
+}
+.forside .button {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
 }
 .projekter img {
   max-width: 100%;
@@ -152,7 +158,8 @@ header {
 }
 .projekter .button {
   text-align: center;
-  margin-left: 35%;
+  margin-left: 32%;
+  margin-right: 32%;
   padding: 2%;
   border-radius: 30px;
   margin-bottom: 5%;
@@ -492,5 +499,14 @@ form {
   }
   .projekter .button {
     margin-left: 0;
+    margin-right: 0;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .forside .button {
+    border-radius: 50px;
+  }
+  .lilleknap {
+    margin-left: 32%;
   }
 }
